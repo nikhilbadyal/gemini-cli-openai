@@ -22,3 +22,7 @@ port = 8787             # Port for local development server
 # wrangler.toml (wrangler v3.88.0^)
 [observability.logs]
 enabled = true
+
+[[routes]]
+pattern = "gemini.nikhilbadyal.com"
+custom_domain = true
